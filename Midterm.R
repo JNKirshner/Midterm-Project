@@ -21,7 +21,7 @@ ui <- fluidPage(
       width = '40%'),
     checkboxInput("checkbox", label = "Forecast?", value = TRUE),
   selectInput(inputId = "select", label = h3("Select a Plot"), 
-              choices = c("Seasonality", "Decompostion", "Autocorrelation"), 
+              choices = c("Seasonality", "Decomposition", "Autocorrelation"), 
               selected = 1),
   dateRangeInput(
     inputId = 'selected_daterange',
